@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fundo:  rgb(5, 0, 29);
+    --corTitulo: white;
+    --corTexto: rgb(199, 210, 255);
+}
+
+body{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    background-color: var(--fundo);
+   
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#box1{
+    height: 200px;
+    background-image: src("../monet/20230614083223_monet-publi-.png");
+    
+}
+
+#box2{
+    display: flex;
+    flex-direction: column;
+}
+    
+
+h1{
+    color: var(--corTitulo)
+}
+    
+#texto {
+    color: var(--corTexto);
+}
+
+#selfportrait{
+    width: 300px;
+}
